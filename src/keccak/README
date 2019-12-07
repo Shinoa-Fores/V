@@ -1,0 +1,22 @@
+Q: What is this?
+A: This is an implementation of the Keccak hash function.
+
+Q: What is a hash function?
+A: A deterministic procedure which seems difficult to invert.
+
+Q: What do you mean "seems difficult"?
+A: Broadly speaking, there is no proof that common hash functions *are*
+   difficult to invert. Rather, we don't know efficient ways to invert them.
+
+Q: What is Keccak?
+A: https://keccak.team/keccak.html
+
+Q: What are the advantages of Keccak over other hash functions?
+A: Keccak has a few nice features (list not exhaustive):
+   - Keccak can take in arbitrarily large input, and return arbitrarily
+     large output.
+   - It's possible to trade security for speed, and vice versa.
+
+Q: How does Keccak work?
+A: Basically, Keccak loads bits into a large Rubik's cube, permutes those bits
+   in convoluted ways, and reads back bits from the Rubik's cube.
