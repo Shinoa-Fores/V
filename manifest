@@ -1,0 +1,9 @@
+608952 Makefile improvements and installer, temporarily modified phf vdiff.sh to work with cl-keccak.
+543856 main esthlos Tying the pieces together for a working vtron, adding the main method.
+543834 gpg-fix esthlos Fixing gpg to error out when there are no seals corresponding to a vpatch. Also a small pathname fix.
+543823 defsystem esthlos Introducing defsystem to tie compoents together. Small change in Keccak to prevent an eval-time error.
+543803 toposort esthlos Introducing a toposort implementation.
+543788 diff esthlos Introducing an interface to GNU patch for vpatch application.
+543678 gpg esthlos Introducing an interface to GPG for seal verification.
+541426 keccak esthlos Introducing Keccak for hashing files.
+2018-08-26 genesis esthlos Creating skeleton for esthlos-v refactor.

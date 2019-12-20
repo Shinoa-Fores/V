@@ -1,0 +1,3 @@
+#!/bin/bash
+
+diff -uNr $1 $2 | awk 'm = /^(---|\+\+\+)/{s="ksum \"" $2 "\" 2>/dev/null  " | getline x; if (s) { split(x, a, " "); o = a[1]; } else {o = "false";} print $1 " " $2 " " o} !m { print $0 }'
